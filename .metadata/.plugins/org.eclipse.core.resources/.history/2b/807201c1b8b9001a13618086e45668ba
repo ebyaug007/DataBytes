@@ -1,0 +1,32 @@
+package com.palindrome;
+
+public class panlindromeapp {
+
+	public static void main(String[] args) {
+		String strcheck = "A man, a plan, a Canal: Panama.";
+		if(palincheck(strcheck))
+			System.out.println("is palindrome");
+		else
+			System.out.println("Not palindrome");
+		
+	}
+	
+	public static boolean palincheck(String str)
+	{
+		char[] charcheck =  str.toLowerCase().toCharArray();
+		int len = str.length();
+		for(int i=0, j=len-1; i< len/2;i++,j--)
+		{
+			while(charcheck[i] < 97 || charcheck[i] > 122)
+				i++;
+			while(charcheck[j] < 97 || charcheck[j] > 122)
+				j--;
+			if(charcheck[i]!= charcheck[j])
+				return false;
+			
+		}
+				
+		return true;
+	}
+	
+}

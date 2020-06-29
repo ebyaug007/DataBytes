@@ -1,0 +1,18 @@
+package com.palindrome;
+
+public class panlindromeapp {
+
+	public static void main(String[] args) {
+		String strcheck = "A man, a plan, a Canal: Panama.";
+		
+		
+		
+	}
+	
+	public static boolean palincheck(String str)
+	{
+		char[] charcheck =  str.toLowerCase().toCharArray();
+		return true;
+	}
+	
+}

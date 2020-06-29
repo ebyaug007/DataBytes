@@ -1,0 +1,19 @@
+package com.packageString;
+
+public class stringRev {
+
+	public static void main(String[] args) {
+	
+		String str = "John";
+		char[] c = str.toCharArray();
+		int ln = str.length();
+		StringBuilder strrv = null;
+		for(int i = ln-1; ln>=0;ln--)
+		{
+			strrv.append(c[i]);
+		}
+		System.out.println(strrv);
+	}
+	
+	
+}

@@ -1,0 +1,20 @@
+package com.vacuumcleaner;
+
+public class vacuumcleanerapp {
+	public static void main(String[] args) {
+		String path = "LR";
+		if(returnInitial(path))
+			System.out.println("Returns to initial position");
+		else
+			System.out.println("Doesnot return");
+	}
+
+	private static boolean returnInitial(String path) {
+		
+		char[] p=path.toCharArray();
+		
+		return false;
+	}
+	
+
+}
