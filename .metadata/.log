@@ -292,3 +292,125 @@ java.net.UnknownHostException: dist.springsource.com: Name or service not known
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-29 19:53:42.353
 !MESSAGE executing callback sts4.classpath.FbQHsGaC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-29 20:05:30.693
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FbQHsGaC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-29 20:05:30.695
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FbQHsGaC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-29 20:05:30.695
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-29 20:05:30.696
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FbQHsGaC => OK
+!SESSION 2020-06-30 07:56:57.630 -----------------------------------------------
+eclipse.buildId=4.6.1.202004200639-RELEASE
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2020-06-30 07:57:12.040
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-06-30 07:57:12.040
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2020-06-30 07:57:16.261
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-30 07:57:16.261
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2835b3d1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@20e9b10b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2020-06-30 07:57:17.607
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2020-06-30 07:57:17.607
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:25.137
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:25.138
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@d15f98a[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=629)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:25.142
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:25.200
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:34.876
+!MESSAGE Boot LS startup time from start to initialized: 9711ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.277
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DeGHYDvOisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.280
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.282
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.284
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.288
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.290
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.320
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.340
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DeGHYDvO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.375
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.376
+!MESSAGE buffering callback sts4.classpath.DeGHYDvO vacuumcleaner false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.377
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.379
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.380
+!MESSAGE buffering callback sts4.classpath.DeGHYDvO Palindrome false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.380
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.467
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.467
+!MESSAGE buffering callback sts4.classpath.DeGHYDvO StringReversal false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:35.468
+!MESSAGE executing callback sts4.classpath.DeGHYDvO 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-30 07:57:36.501
+!MESSAGE executing callback sts4.classpath.DeGHYDvO SUCCESS [done]
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2020-06-30 07:57:41.440
+!MESSAGE wakatime-cli is up to date.

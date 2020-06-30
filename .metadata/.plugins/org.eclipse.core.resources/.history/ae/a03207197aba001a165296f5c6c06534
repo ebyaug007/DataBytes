@@ -12,7 +12,7 @@ package com.vacuumcleaner;
 
 public class vacuumcleanerapp {
 	public static void main(String[] args) {
-		String path = "LLU";
+		String path = "RUULLDRD";
 		if(returnInitial(path))
 			System.out.println("Returns to initial position");
 		else
